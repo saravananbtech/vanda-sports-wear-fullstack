@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+venv/
+env/
+.venv/
+
+# Django
+*.sqlite3
+/media/
+/staticfiles/
+db.sqlite3
+
+# Env
+.env
+
+# Django secret/local settings overrides
+local_settings.py
+
+# Testing / coverage
+.coverage
+htmlcov/
+.pytest_cache/
